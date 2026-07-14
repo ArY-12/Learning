@@ -1,8 +1,5 @@
 # DevOps → MLOps/AI Infra Roadmap (v2)
 ### Topic-Wise Study Guide with Do's, Don'ts, and Mandatory Projects
-GCC-Focused | 14-Month Plan | 10–12 hrs/week
-
-**How to use this guide:** Work through each phase in order, don't skip ahead. Every topic has a subtopic checklist, do's, don'ts, a mandatory project, free resources, and a "Done when" checkpoint. Only move to the next topic when you can pass the checkpoint without looking anything up. No certifications, no DSA grind, no SQL detour — your projects are your proof.
 
 ---
 
