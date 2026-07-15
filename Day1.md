@@ -13,7 +13,7 @@
 -   /lib: Libaries.
 -   /media: Used for automatically mounted removable devices like USB drives / CD's.
 -   /mnt: Mount i.e can find the mounted devices. Similar to the C and D drives available in the Windows Operating System.
--   /opt: Optional; softwares installed over here.
+-   /opt: Optional; softwares are installed over here.
 -   /proc: Information about the system processes and resources is stored here.
 -   /root: Root user; folder for user with the root permissions.
 -   /sys: System files; basically can be used to interact with the kernel.
