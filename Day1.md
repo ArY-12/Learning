@@ -2,8 +2,8 @@
 
 ### Topics covered ###
 
-## File system ##
-**Different types of files present in Linux**
+### File system ###
+### Different types of files present in Linux ###
 
 -   /bin: Binaries / applications are stored here.
 -   /sbin: System Binaries for admin users.
