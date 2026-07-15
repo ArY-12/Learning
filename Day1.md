@@ -2,8 +2,9 @@
 
 ### Topics covered ###
 
-**File system**
+**File system** \n
 **Different types of files present in Linux**
+
 -   /bin: Binaries / applications are stored here.
 -   /sbin: System Binaries for admin users.
 -   /boot: Files required for the Operating System to boot are stored over here.
@@ -20,3 +21,6 @@
 -   /tmp: Temporary directory; for each session you can store temporary files over here.
 -   /usr: Applications installed to be used by the user.
 -   /var: Variable; basically files which grow by time are stored over here. For e.g logs. Or can have caches.
+
+**Navigation In Linux**
+
