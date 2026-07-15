@@ -2,7 +2,7 @@
 
 ### Topics covered ###
 
-**File system** \n
+## File system ##
 **Different types of files present in Linux**
 
 -   /bin: Binaries / applications are stored here.
