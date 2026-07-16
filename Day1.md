@@ -27,5 +27,8 @@
 -   cd: Change Directory
 -   mkdir: Make Directory
 -   rmdir: Remove An Empty Directory
+-   find: Use to find a specific file
+-   pwd: Prints the present working directory
+-   ls: list directory contents
 
 
