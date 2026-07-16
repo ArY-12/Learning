@@ -26,6 +26,6 @@
 
 -   cd: Change Directory
 -   mkdir: Make Directory
--   rmdir: Remove Directory
+-   rmdir: Remove An Empty Directory
 
 
