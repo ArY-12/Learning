@@ -33,8 +33,8 @@
 
 ## Links in Linux ##
 
-## Links are is a pointer to a file. They point to a file or a directory. ##
-## There are two types of links in Linux. ##
+Links are is a pointer to a file. They point to a file or a directory. 
+There are two types of links in Linux. 
 
 -   Soft Link / Symbolic Links: Similar to file shortcut in Windows OS. It contains a Inode that points to the original file. Any changes to either data is reflected in the other.
 
