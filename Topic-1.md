@@ -44,4 +44,9 @@ There are two types of links in Linux.
 
 ## File types in Linux ##
 
-
+-   Regular File (-): Contains user data or executable programs. The first character (-) indicates a regular file.
+-   Directory (d): A container that holds other files or other directories.
+-   Links (l): Associating two or more file names to the same set of file data.
+-   Block Files (b): Represents storage devices that read/write data in blocks.
+-   Character Device (c): Represents devices that process data one character at a time.
+-   Named Pipe (p): Allows one process to send data directly to another.
