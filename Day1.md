@@ -37,7 +37,8 @@ Links are is a pointer to a file. They point to a file or a directory.
 There are two types of links in Linux. 
 
 -   Soft Link / Symbolic Links: Similar to file shortcut in Windows OS. It contains a Inode that points to the original file. Any changes to either data is reflected in the other.
+    Creation of Soft Link: ln -s /path/to/folder or file /path/to/create/link/at
 
 -   Hard Link: Simply another filename for the same file. Removing any link, just reduces the link count, but doesn't affect other links.
-
+    Creation of Hard Link: ln /path/to/folder or file /path/to/create/link/at
 
