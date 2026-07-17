@@ -2,7 +2,7 @@
 
 ### Topics covered ###
 
-### File system ###
+# File system #
 ### Different types of files present in Linux ###
 
 -   /bin: Binaries / applications are stored here.
@@ -22,7 +22,7 @@
 -   /usr: Applications installed to be used by the user.
 -   /var: Variable; basically files which grow by time are stored over here. For e.g logs. Or can have caches.
 
-## Navigation In Linux ##
+# Navigation In Linux #
 
 -   cd: Change Directory
 -   mkdir: Make Directory
