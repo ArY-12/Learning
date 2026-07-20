@@ -27,3 +27,16 @@ chmod 700 -R test/ (-R is for recursive) or
 chmod g-rwx -R test/ && chmod o-rwx -R test/ or 
 chmod u=rwx -R test/
 ```
+
+
+To change the Ownership of a certain file or directory, you would need to use the ```chown ``` command.
+
+```
+Example:
+To change the ownership of the directory 'test' in your home folder such that it belongs to the root user, you can use:
+chown -R root:root test/
+Note: here the root previous to the ':' semicolon means the user while the root after the ':' means the group. 
+So the user:group format. The owner user is root and the owner group is also set to root.
+You can change the ownership of anything only if you have sudo privileges.
+```
+
