@@ -41,3 +41,23 @@ So the user:group format. The owner user is root and the owner group is also set
 You can change the ownership of anything only if you have sudo privileges.
 ```
 
+To only change the Group ownership of a certain file or directory, you would need to use the ```chgrp``` command.
+
+The difference between ```chown``` and ```chgrp``` is that ```chown``` can change both the user and group ownership while the ```chgrp``` is specifically used only for the group ownership.
+
+```
+Example:
+To change the ownership of the directory for group to 'ary' group
+
+drwxrwx--- 3 root root 4096 Jul 18 10:41 test
+
+we can use the command in the following manner:
+
+'chgrp ary -R test/'
+
+Note: You would need sudo privileges to execute the command. After executing the command, you can check the permissions change to:
+
+drwxrwx--- 3 root ary 4096 Jul 18 10:41 test
+
+```
+
