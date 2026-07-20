@@ -28,6 +28,7 @@ chmod g-rwx -R test/ && chmod o-rwx -R test/ or
 chmod u=rwx -R test/
 ```
 
+# Ownership #
 
 To change the Ownership of a certain file or directory, you would need to use the ```chown ``` command.
 
