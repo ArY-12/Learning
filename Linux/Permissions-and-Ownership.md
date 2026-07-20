@@ -19,10 +19,11 @@ User, Group, and Other Option in Linux File Permission.
 -   Others (o): The other permissions apply to all other users on the system.
 
 
-To change permissions of a certain directory or file, you would need to use the ```chmod ``` command.
-Example: 
-    To change the permission of the directory 'test' in your home folder so that only the User can access it, you can use:
-        chmod 700 -R test/ (-R is for recursive) or
-        chmod g-rwx | o-rwx -R test/ or 
-        chmod u=rwx -R test/
-
+To change permissions of a certain directory or file, you would need to use the ```chmod ``` command. 
+```
+Example:
+To change the permission of the directory 'test' in your home folder so that only the User can access it, you can use:
+chmod 700 -R test/ (-R is for recursive) or
+chmod g-rwx -R test/ || chmod o-rwx -R test/ or 
+chmod u=rwx -R test/
+```
