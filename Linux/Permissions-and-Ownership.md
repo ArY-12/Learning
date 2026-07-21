@@ -63,3 +63,9 @@ drwxrwx--- 3 root ary 4096 Jul 18 10:41 test
 
 ## Special Permissions in Linux ##
 
+There are 3 advanced permissions : 
+
+-   SUID: 
+-   SGID:
+-   Sticky Bit:
+
