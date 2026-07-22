@@ -28,3 +28,9 @@ Or for existing user:
 sudo usermod username -s /bin/bash
 ```
 
+How to check the users already existing on the system?
+```cat /etc/passwd```
+
+Default Configuration file for 'useradd' command:
+``` /etc/default/useradd```.
+We can change the configurations over here to change the default behaviour of the `useradd` command
