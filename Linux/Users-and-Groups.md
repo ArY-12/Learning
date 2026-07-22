@@ -1,6 +1,6 @@
 # Users #
 
-Creation of  users in Linux: 
+```Creation of users in Linux:```
 
 Users can be created through the sudo access.
 
@@ -34,3 +34,25 @@ How to check the users already existing on the system?
 Default Configuration file for 'useradd' command:
 ``` /etc/default/useradd```.
 We can change the configurations over here to change the default behaviour of the `useradd` command
+
+```Deletion of users in Linux:```
+
+How to delete the users?
+
+```
+userdel username
+```
+
+Note: This only deletes the user from the system. If their directory exists in the /home directory, it won't get deleted by default.
+
+To delete the user directory in /home, we can use the command:
+
+```
+userdel -r username
+```
+
+This deletes the home directory with the user.
+
+
+
+
