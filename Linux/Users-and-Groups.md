@@ -53,6 +53,35 @@ userdel -r username
 
 This deletes the home directory with the user.
 
+# Groups #
+
+Creation of groups:
+```
+sudo groupadd groupname
+```
+
+Deletion of groups:
+```
+sudo groupdel groupname
+```
+
+Add users to a groups:
+```
+sudo usermod -aG groupname username
+```
+
+Remove users from a group:
+```
+sudo gpasswd -d username groupname
+```
+
+Assign a directory to a group:
+```
+sudo chgrp groupname directory/
+```
+
+
+
 
 
 
