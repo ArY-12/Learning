@@ -65,7 +65,7 @@ drwxrwx--- 3 root ary 4096 Jul 18 10:41 test
 
 There are 3 advanced permissions : 
 
--   SUID: 
--   SGID:
--   Sticky Bit:
+-   SUID: Executes the file using the Owner's privilege instead of the user who executes it.
+-   SGID: Executes the file using the Groups's privilege.
+-   Sticky Bit: When set, only the owner of the file/directory, only the owner can delete / rename files/directories, even if others have write permissions. This prevents users from deleting each other's files in shared directories.
 
