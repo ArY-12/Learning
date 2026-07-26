@@ -36,6 +36,10 @@ sudo usermod username -s /bin/bash
 How to check the users already existing on the system?
 ```cat /etc/passwd```
 
+How to check the passwords of users existing on the system?
+``` sudo cat/etc/shadow```
+Note: The passwords are encrypted.
+
 Default Configuration file for 'useradd' command:
 ``` /etc/default/useradd```.
 We can change the configurations over here to change the default behaviour of the `useradd` command
