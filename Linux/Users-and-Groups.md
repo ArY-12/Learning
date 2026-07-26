@@ -1,5 +1,10 @@
 # Users #
 
+
+sudo Vs su
+-   sudo(superuser do): Grants temporary root privileges to execute a single command while remaining the logged in as your standard user, requiring your own password.
+-   su(switch user): Changes your entire shell session to another user, requiring the target account's password.
+
 ```Creation of users in Linux:```
 
 Users can be created through the sudo access.
