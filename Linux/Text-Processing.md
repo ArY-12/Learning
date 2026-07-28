@@ -137,3 +137,75 @@ cut -d ":" -f 7 /etc/passwd | tail -3
 /bin/bash
 /bin/bash
 ```
+
+### SORT ###
+
+The sort command is used to sort the text of a file based on its content.
+
+Example:
+
+Sorting a file normal way:
+
+```
+sort -f file.txt
+
+eight
+five
+four
+nine
+one
+seven
+six
+ten
+three
+two
+```
+
+Sorting a file in reverse:
+```
+sort -r file.txt
+
+two
+three
+ten
+six
+seven
+one
+nine
+four
+five
+eight
+```
+
+Sorting a file but printing only the unique contents:
+```
+sort -u file.txt
+
+eight
+five
+four
+nine
+one
+seven
+six
+ten
+three
+two
+```
+
+Sorting a file according to the numeric value:
+```
+sort -n file.txt
+
+1.five
+1.four
+1.ten
+2.six
+2.three
+3.four
+3.one
+4.five
+4.two
+5.ten
+```
+
