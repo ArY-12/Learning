@@ -1,5 +1,7 @@
 # Text Processing #
 
+### Note: Mini Labs are in /Linux/Mini-Labs.md ###
+
 ### Different types of commands for text processing. ###
 
 ### GREP ###
@@ -76,4 +78,62 @@ grep -r Error /var/log
 
 ---Too long output to add here---
 
+```
+
+
+### CUT ###
+
+The cut command is used to extract specific parts of each line from a file or input. 
+
+You can extract data based on byte position, character position, or fields separated by delimiter.
+
+Examples:
+
+To extract certain specific words:
+
+Using the byte position, we will have to specify the position of the byte for the same using the -b flag:
+```
+cat hardlink.txt
+Hello Everyone. This is a Hard Link.
+
+cut -b 1-14 hardlink.txt
+Hello Everyone
+```
+Using the character position, we will have to specify the position of the character for the same using the -c flag:
+```
+cat hardlink.txt
+Hello Everyone. This is a Hard Link.
+
+cut -c 1-14 hardlink.txt
+Hello Everyone
+```
+
+This works same as the byte character, except it's more useful when there is no emphasis on the byte but the character, as there can be different types of characters in multiple languages. The charcter positions helps over there.
+
+Using the fields with a delimiter by using the -d  with an input delimiter in quotes and a -f fields flag for the fields to output.
+
+Example: To extract the usernames from /etc/passwd file.
+```
+cut -d ":" -f 1 /etc/passwd | tail -3
+
+amaura
+impidimp
+eevee
+```
+
+Another example: To extract the uids from /etc/passwd file.
+```
+cut -d ":" -f 3 /etc/passwd | tail -3
+
+1002
+1003
+1004
+```
+
+Another example: To extract the shells of users from the /etc/passwd file.
+```
+cut -d ":" -f 7 /etc/passwd | tail -3
+/bin/bash
+/bin/bash
+/bin/bash
 ```
