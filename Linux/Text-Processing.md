@@ -208,4 +208,45 @@ sort -n file.txt
 4.two
 5.ten
 ```
+### WC ###
+
+The wc command is used to find out the words, characters, and bytes in a file or an input.
+
+Example:
+
+```
+cat file-one.txt
+
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+
+wc file-one.txt
+
+10 10 50 file-one.txt
+```
+
+In the output, here the first '10' means the number of lines, the second '10' means the number of words, and the last '50' means the number of bytes.
+
+To explicitly display the number of lines in a file:
+
+```
+wc -l file-one.txt
+
+10 file-one.txt
+```
+
+To display the number of words in a file:
+
+```
+wc -w file-one.txt
+10 file-one.txt
+```
 
