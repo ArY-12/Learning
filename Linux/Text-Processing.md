@@ -250,3 +250,32 @@ wc -w file-one.txt
 10 file-one.txt
 ```
 
+### AWK ###
+
+The awk is a powerful text-processing command in linux used to analyze, filter, and manipulate structured data such as logs, CSV files, and command output.
+
+Examples:
+
+
+
+### SED ###
+
+It's short for stream editor. It's a non interactive text editor used to perform basic text transformations on an input stream, such as a file or an input from pipeline.
+
+Examples:
+
+To replace a string in a given file:
+```
+cat file.txt
+
+Hello my name is Aryan.
+
+
+sed -i 's/Aryan/ArY/' file.txt
+
+Hello my name is ArY
+```
+
+The -i means in-place and it will replace the file with the new content. If you don't want to edit the file you can simply remove the -i flag and redirect the output to another file.
+
+
