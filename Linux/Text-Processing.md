@@ -256,6 +256,29 @@ The awk is a powerful text-processing command in linux used to analyze, filter, 
 
 Examples:
 
+To find a specific keyword in the file. Like a log file where you have to find a specific method of the running application:
+
+```
+awk '/INFO/ {print $0}' app.log
+
+[2010-04-24 07:51:54,393]  INFO - [main] Attempting to log in...
+[2010-04-24 07:51:55,081]  INFO - [main] Successfully logged in as: wchung/eric
+[2010-04-24 07:51:55,081]  INFO - [main] Validating Oracle Data Loader On Demand
+```
+
+This will print all the instances where the keyword INFO has occured.
+
+Using a Delimiter to filter out outputs.
+
+Example: To find the username and the shell of a user from /etc/passwd.
+
+```
+awk -F: '{print $1 ":" $7}' /etc/passwd
+
+root:/bin/bash
+daemon:/usr/sbin/nologin
+bin:/usr/sbin/nologin
+```
 
 
 ### SED ###
