@@ -288,6 +288,18 @@ awk 'END {print NR}' /etc/passwd
 ```
 The 'END' tells the awk to first read the file and then print whatever inside's the {}
 
+Example: To find the number of bash shell users from /etc/passwd.
+
+```
+awk -F: '$7=="/bin/bash" {count++} END {print count}" /etc/passwd
+
+6
+```
+
+The $7 is the number of field which contains the shell. The count is a variable which gets incremented when the file reads the $7 as bash. The END tells the awk to read the whole file and then print whatever is inside the {}.
+
+
+
 
 ### SED ###
 
