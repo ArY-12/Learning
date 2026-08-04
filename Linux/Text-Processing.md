@@ -280,6 +280,14 @@ daemon:/usr/sbin/nologin
 bin:/usr/sbin/nologin
 ```
 
+To find the count of users in a system from /etc/passwd:
+
+```
+awk 'END {print NR}' /etc/passwd
+38
+```
+The 'END' tells the awk to first read the file and then print whatever inside's the {}
+
 
 ### SED ###
 
