@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Path where the backups are stored.
-# destPath="/home/ary/backup"
-# sourcePath=/home/ary/scripts/
-# tar -C "$sourePath" . -czf "$destPath/${timestamp}-backup.tar.gz" 
-
+# User Inputs
 sourcePath="$1"
 destPath="$2"
 
