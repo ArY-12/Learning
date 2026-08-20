@@ -1,6 +1,6 @@
 # Networking Basics #
 
-### IP Addressing ###
+### IP Addressing and Subnet Mask ###
 What is an IP Address?
 
 IP Address is a unique number assigned to a device which connects to a network.
