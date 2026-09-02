@@ -13,8 +13,8 @@ for service in $(echo "$services" | awk '{print $1}')
 do
 	if [[ $service == $service_name ]]; then
 		echo "$services" | awk -v service="$service" '$1 == service {print $3}'
-	else
-		echo "Service Not Found."
-		exit 1
+		exit 0
 	fi
+echo "Service Not Found!"
+exit 1
 done
