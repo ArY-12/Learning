@@ -47,6 +47,23 @@ Similarly a Subnet Mask `255.255.0.0` here means that the last two octets of the
 
 ### CIDR Notation ###
 
-### Private IP Ranges ###
+### Private IP & Ranges ###
+
+What are Private IP's?
+They are IP's which are assigned or used to identify devices inside your local home or office network. They are used for communication between devices inside a local network (LAN).
+
+These addresses are usually assigned to the devices through the router or DHCP server.
+
+The private devices aren't accessible through the internet. For accessing the internet they require Network Address Translation (NAT).
+
+The private IP ranges are from:
+
+```
+10.0.0.0 to 10.255.255.255
+
+172.16.0.0 to 172.31.255.255
+
+192.168.0.0 to 192.168.255.255
+```
 
 ### Loopback ###
